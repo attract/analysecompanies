@@ -57,3 +57,6 @@ ADD ./req.txt /home/docker/code/req.txt
 
 # run pip install
 RUN pip install -r /home/docker/code/req.txt
+
+# Update yum cache, because in this image we do not run "yum update -y && yum clean all"
+RUN yum makecache fast && yum install -y iproute
