@@ -34,8 +34,13 @@ RUN yum install -y \
     freetype-devel \
     fontconfig-devel \
     libicu-devel \
+    libffi-devel \
+    libxslt-devel \
+    libxml2-devel \
+    libxml++-devel \
     sqlite-devel \
     libpng-devel
+
 
 # needed to unpack phantomjs from tar.bz2
 RUN yum install -y bzip2
