@@ -42,7 +42,6 @@ RUN yum install -y \
     libpng-devel \
     cronie
 
-
 # needed to unpack phantomjs from tar.bz2
 RUN yum install -y bzip2
 
