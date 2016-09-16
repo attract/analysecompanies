@@ -39,7 +39,8 @@ RUN yum install -y \
     libxml2-devel \
     libxml++-devel \
     sqlite-devel \
-    libpng-devel
+    libpng-devel \
+    cronie
 
 
 # needed to unpack phantomjs from tar.bz2
